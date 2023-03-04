@@ -19,7 +19,13 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
         options: {
-          icon: 'favicon.ico'
+          icons: [
+            {
+              src: `/favicon-32x32.png`,
+              sizes: `32x32`,
+              type: `image/png`,
+            }
+          ]
         },
     },
     "gatsby-transformer-sharp",
