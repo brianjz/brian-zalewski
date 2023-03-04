@@ -2,7 +2,8 @@ node_modules/
 .cache/
 package-lock.json
 .env
-.env.development
+.env.*
+
 
 # Build directory
 /public

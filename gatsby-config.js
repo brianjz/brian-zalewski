@@ -12,7 +12,6 @@ module.exports = {
     description: 'Brian Zalewski is a full-stack software engineer with 15+ years of experience with varying technologies',
   },
   plugins: [
-    "gatsby-plugin-google-gtag",
     "gatsby-plugin-netlify",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
@@ -45,11 +44,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-gtag`,
+      resolve: `gatsby-plugin-gtag`,
       options: {
-        trackingIds: [
-          "UA-335756-13"
-        ]
+        trackingId: "UA-335756-13"
       }
     },
   ]

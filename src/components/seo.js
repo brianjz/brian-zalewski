@@ -12,7 +12,6 @@ const Seo = ({ title }) => {
     }
   `)
 
-  console.log(title)
   return (
     <title>{title ? `${title} | ${data.site.siteMetadata.title}` : data.site.siteMetadata.title}</title>
   )
