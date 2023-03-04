@@ -1,0 +1,9 @@
+export { default as Layout } from './layout';
+export { default as Jobs } from './jobs';
+export { default as Seo } from './seo';
+export { default as NavBar } from './nav';
+export { default as Projects } from './projects';
+export { default as Me } from './me';
+export { default as About } from './about';
+export { default as Head } from './head';
+export { default as Contact } from './contact';
