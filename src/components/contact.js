@@ -7,7 +7,6 @@ const StyledContactSection = styled.section`
 `;
 
 const Contact = () => {
-    console.log(email)
     return (
         <StyledContactSection id="contact">
             <h2 className="section-heading">Contact Me</h2>
