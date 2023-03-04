@@ -1,6 +1,10 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Brian Zalewski`,
@@ -16,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-mongodb`,
       options: { 
-        connectionString: `SECRET`,
+        connectionString: process.env.DB_CONN,
         dbName: `brianzalewski`, 
         collection: [ `jobs`, `projects` ] 
       },
