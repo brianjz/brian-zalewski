@@ -114,7 +114,7 @@ const About = () => {
 			</p>
 			<p>
 				I've also been a fan of most <strong>heavy metal and hard rock music</strong> since I <span className="strikethrough">stole</span> borrowed my 
-                older brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette tape (probably know to most now
+                older brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette tape (probably known to most now
                 as that song from Stranger Things). I do also enjoy <a href="http://www.last.fm/user/brianjz" title="Last.fm">a lot of other music</a> from a lot of other 
                 genres, but heavy metal still does that thing to me that your favorite music does to you.
 			</p>
@@ -124,7 +124,7 @@ const About = () => {
                 and space.
 			</p>
 			<p>
-				<strong>This site</strong> was built with much inspiration 
+				<strong>This site</strong> was built with React and Gatsby using much inspiration 
                 from <a href="https://brittanychiang.com/">Brittany Chiang</a> and <a href="https://github.com/bchiang7/v4/">her personal site on GitHub.</a>
 			</p>
             <p>A few technologies that I've worked with recently are:</p>

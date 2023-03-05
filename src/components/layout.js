@@ -2,7 +2,7 @@ import * as React from 'react'
 import GlobalStyle from '../styles/GlobalStyles'
 import theme from '../styles/theme'
 import { ThemeProvider } from 'styled-components'
-import { NavBar, Head, Loader } from '@components'
+import { NavBar, Head, Loader, Footer } from '@components'
 import { useEffect, useState } from 'react'
 
 const Layout = ({ location, children }) => {
@@ -34,6 +34,7 @@ const Layout = ({ location, children }) => {
             <NavBar />
             <div id="content">
               {children}
+              <Footer />
             </div>
             </>
           )

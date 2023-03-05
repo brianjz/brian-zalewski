@@ -39,7 +39,7 @@ const Loader = ({ finishLoading }) => {
       <Helmet bodyAttributes={{ class: `hidden` }} />
 
       <div className="loading-wrapper">
-        <div>HI!</div>
+        <div>...</div>
       </div>
     </StyledLoader>
   );

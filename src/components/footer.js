@@ -1,0 +1,33 @@
+import * as React from 'react'
+import styled from 'styled-components'
+
+const StyledFooter = styled.footer`
+    ${({ theme }) => theme.mixins.flexCenter};
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 15px;
+    min-height: 70px;
+`;
+
+const StyledName = styled.div`
+    color: var(--blue);
+    line-height: 1;
+    font-size: var(--fz-xs);
+
+    a {
+        text-decoration: underline;
+    }
+`;
+
+const Footer = () => {
+    return (
+        <StyledFooter>
+            <StyledName>
+                <div>Built by Brian Zalewski. Learned From and Inspired By <a href="https://github.com/bchiang7/v4">v4</a> by Brittany Chiang.</div>
+            </StyledName>
+        </StyledFooter>
+    )
+}
+
+export default Footer;

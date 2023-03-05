@@ -8,3 +8,4 @@ export { default as Me } from './me';
 export { default as About } from './about';
 export { default as Head } from './head';
 export { default as Contact } from './contact';
+export { default as Footer } from './footer';

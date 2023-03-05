@@ -106,11 +106,9 @@ const Jobs = ({ pageTitle, children }) => {
                         <h5><a href={job.url} className="inline-link">{job.company}</a> ({job.location})</h5>
                         <p className="jobRange">{sdate} - {edate}</p>
                         <StyledMilestones>
-                          {job.milestones.map((ms, index) => {
-                            return (
+                          {job.milestones.map((ms, index) =>
                               <li key={index}>{ms}</li>
-                            )
-                          })}
+                          )}
                         </StyledMilestones>
                     </StyledJob>
                 )
