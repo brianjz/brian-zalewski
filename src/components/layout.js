@@ -2,10 +2,12 @@ import * as React from 'react'
 import GlobalStyle from '../styles/GlobalStyles'
 import theme from '../styles/theme'
 import { ThemeProvider } from 'styled-components'
-import { NavBar, Head } from '@components'
-import { useEffect } from 'react'
+import { NavBar, Head, Loader } from '@components'
+import { useEffect, useState } from 'react'
 
 const Layout = ({ location, children }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
     if (location.hash) {
       const id = location.hash.substring(1); // location.hash without the '#'
@@ -25,10 +27,17 @@ const Layout = ({ location, children }) => {
     <div id="root">
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <NavBar />
-      <div id="content">
-        {children}
-      </div>
+      {isLoading ? (
+            <Loader finishLoading={() => setIsLoading(false)} />
+          ) : (
+            <>
+            <NavBar />
+            <div id="content">
+              {children}
+            </div>
+            </>
+          )
+      }
     </ThemeProvider>
     </div>
     </>

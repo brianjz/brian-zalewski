@@ -1,4 +1,5 @@
 export { default as Layout } from './layout';
+export { default as Loader } from './loader';
 export { default as Jobs } from './jobs';
 export { default as Seo } from './seo';
 export { default as NavBar } from './nav';
