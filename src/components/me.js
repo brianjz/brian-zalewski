@@ -9,13 +9,17 @@ const StyledMeSection = styled.section`
         padding: 50px 0;
         font-size: 1em;
     }
+    @media (max-width: 1080px) {
+        padding: 0;
+        font-size: 1em;
+    }
     
     .big-heading {
         position: relative;
         display: flex;
         align-items: center;
         margin-bottom: 20px;
-        @media (max-width: 768px) {
+        @media (max-width: 1080px) {
             font-size: 1.5em;
             text-align: center;
         }
