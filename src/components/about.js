@@ -94,35 +94,35 @@ const About = () => {
 				Besides full-stack development, there are other things in my life that I really enjoy doing.
 			</p>
 			<p>
-				<strong>In 2010, my life changed completely,</strong> for the better, when my daughter was born. My perspectives on a lot of things changed. 
-                Then, in December 2012, my son was born. It's been a challenge, a blessing, stressful, amazing, and many other things, and <strong>I wouldn't change 
-                a thing</strong>.
+				<strong>The year 2010 marked a pivotal turning point in my life</strong> when the arrival of my daughter brought boundless joy and immeasurable changes. 
+                In December 2012, my son joined our family. Parenthood has been an extraordinary mix of challenges and blessings, encompassing moments of both stress 
+                and pure amazement. This incredible journey has shaped me in ways I never imagined, and I wholeheartedly embrace every step of it.
 			</p>
-			<p>
-				In 1999, partially inspired by a news article and partially inspired by the death of my grandfather, I took a dive into the huge, deep 
-                ocean known as <a href="https://www.zalewskifamily.net/">family history and genealogy.</a> <strong>I have yet to surface and I doubt I ever 
-                will.</strong> It's been an exciting and humbling journey that has taught me a lot about who I am and where I came from. I hope to 
-                pass on the knowledge and wisdom to my children. A lot of the sites I dabble with are genealogy-related as there is so much there to work with. 
-			</p>
-			<p>
-				<strong>I've been video gaming since I was a wee lad.</strong> My parents had 
-                a <a href="http://en.wikipedia.org/wiki/Texas_Instruments_TI-99/4A" title="Wikipedia">Texas Instruments TI-99/4A</a> that I remember playing Space 
-                Invaders on. Once my brother bought the <strong>Nintendo Entertainment System</strong>, all bets were off. I get less time to play now that I have 
-                two kids and am an adult that has to do boring adult things, but I still find time and I still really enjoy it, though my game interests have changed. 
-                In the past few years, we started (well, sort of restarted) our family gaming site, <a href="https://www.stayathomegamers.com">Stay-At-Home Gamers,</a> that 
-                is about video and board gaming with our family.
-			</p>
-			<p>
-				I've also been a fan of most <strong>heavy metal and hard rock music</strong> since I <span className="strikethrough">stole</span> borrowed my 
-                older brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette tape (probably known to most now
-                as that song from Stranger Things). I do also enjoy <a href="http://www.last.fm/user/brianjz" title="Last.fm">a lot of other music</a> from a lot of other 
-                genres, but heavy metal still does that thing to me that your favorite music does to you.
-			</p>
-			<p>
-				I am also really interested in ideas like big data, gamification, and, for some reason, logistics. Some other things I like, in no particular order: 
-                the Green Bay Packers, Buffalo Bills, history, documentaries, movies (mainly comedy), <a href="http://www.bbcamerica.com/doctor-who/">Doctor Who</a>, 
-                and space.
-			</p>
+      <p>
+        In 1999, a convergence of events — a thought-provoking news article and the loss of my beloved grandfather — propelled me into the vast
+        realm of <a href="https://www.zalewskifamily.net/">family history and genealogy</a>. <strong>It's an ongoing exploration</strong> that continues to teach me 
+        valuable lessons about my roots and personal identity. I aspire to share this knowledge with my children, and my fascination with 
+        genealogy-related sites fuels my ongoing quest for discovery.
+      </p>
+      <p>
+      <strong>Gaming has been an integral part of my life since my early years.</strong> I fondly recall my first encounter with video games on my parents' Texas Instruments TI-99/4A, 
+      where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my passion truly took flight. 
+      While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to indulge in this beloved hobby. 
+      While my interests and priorities have shifted over time, gaming continues to provide me with a much-needed escape. Recently, my family and I decided to relaunch our 
+      family gaming site, <a href="https://www.stayathomegamers.com">Stay-At-Home Gamers</a>, where we document our adventures in video and board gaming
+      </p>
+      <p>
+        The pivotal moment when I laid my hands on my brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette 
+        tape forever changed my musical journey (probably known to most now as that song from Stranger Things.) Since that day, I've remained a devoted fan of heavy metal and 
+        hard rock music. While I also appreciate and enjoy a diverse range of musical genres, there's something about heavy metal that evokes a special kind of passion and
+        connection, akin to the effect of your favorite music on your own soul.
+      </p>
+      <p>
+      In addition to my passion for software engineering, I have a keen interest in cutting-edge concepts like big data, gamification, and the intriguing world of 
+      logistics. On a lighter note, my interests span an eclectic range of subjects including cheering for American football teams like the Green Bay Packers and the Buffalo 
+      Bills and English football teams like Liverpool, unraveling the tapestry of history, diving into documentaries, comedy movies, 
+      and contemplating the wonders of the space.
+      </p>
 			<p>
 				<strong>This site</strong> was built with React and Gatsby using much inspiration 
                 from <a href="https://brittanychiang.com/">Brittany Chiang</a> and <a href="https://github.com/bchiang7/v4/">her personal site on GitHub.</a>
