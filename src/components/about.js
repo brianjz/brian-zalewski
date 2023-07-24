@@ -29,6 +29,9 @@ const StyledPic = styled.div`
     width: 100%;
     border-radius: var(--border-radius);
     background-color: var(--light-slate);
+    @media (max-width: 768px) {
+      background-color: transparent;
+    }
     z-index: 3;
     &:hover,
     &:focus {
@@ -48,7 +51,9 @@ const StyledPic = styled.div`
       mix-blend-mode: multiply;
       filter: grayscale(100%) contrast(1);
       transition: var(--transition);
-    }
+      @media (max-width: 768px) {
+        filter: grayscale(0%) contrast(1);
+      }
   }
 `;
 

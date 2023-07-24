@@ -31,7 +31,7 @@ const Contact = () => {
                 {socialMedia.map((sm) => {
                     const smLink = `<a href="${sm.url}">${sm.svg}</a>`
                     return (
-                        <li dangerouslySetInnerHTML={{__html: smLink}}></li>
+                        <li key={sm.name} dangerouslySetInnerHTML={{__html: smLink}}></li>
                     )
                 })}
             </StyledLinks>

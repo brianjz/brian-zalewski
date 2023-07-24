@@ -75,6 +75,9 @@ const StyledProject = styled.li`
                 transition: var(--transition);
                 background-color: var(--dark-blue);
                 mix-blend-mode: screen;
+                @media (max-width: 768px) {
+                    background-color: transparent;
+                }
             }
         }
 
@@ -86,7 +89,7 @@ const StyledProject = styled.li`
                 object-fit: cover;
                 width: auto;
                 height: 100%;
-                filter: grayscale(100%) contrast(1) brightness(50%);
+                filter: grayscale(0%) contrast(1) brightness(100%);
             }
         }
     } 
