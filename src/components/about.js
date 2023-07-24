@@ -101,26 +101,26 @@ const About = () => {
       <p>
         In 1999, a convergence of events — a thought-provoking news article and the loss of my beloved grandfather — propelled me into the vast
         realm of <a href="https://www.zalewskifamily.net/">family history and genealogy</a>. <strong>It's an ongoing exploration</strong> that continues to teach me 
-        valuable lessons about my roots and personal identity. I aspire to share this knowledge with my children, and my fascination with 
-        genealogy-related sites fuels my ongoing quest for discovery.
+        valuable lessons about my roots and personal identity. I love to share this knowledge with my children, and my fascination with 
+        genealogy fuels my ongoing quest for discovery and software engineering.
       </p>
       <p>
-      <strong>Gaming has been an integral part of my life since my early years.</strong> I fondly recall my first encounter with video games on my parents' Texas Instruments TI-99/4A, 
-      where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my passion truly took flight. 
-      While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to indulge in this beloved hobby. 
-      While my interests and priorities have shifted over time, gaming continues to provide me with a much-needed escape. Recently, my family and I decided to relaunch our 
+      <strong>Gaming has been an integral part of my life since my early years.</strong> I remember my first encounter with video games on my parents' Texas Instruments TI-99/4A, 
+      where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my early obsession truly took flight. 
+      While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to get lost in this beloved hobby. 
+      My interests and priorities have shifted over time, but gaming continues to provide me with a much-needed escape. Recently, my family and I decided to relaunch our 
       family gaming site, <a href="https://www.stayathomegamers.com">Stay-At-Home Gamers</a>, where we document our adventures in video and board gaming
       </p>
       <p>
         The pivotal moment when I laid my hands on my brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette 
         tape forever changed my musical journey (probably known to most now as that song from Stranger Things.) Since that day, I've remained a devoted fan of heavy metal and 
-        hard rock music. While I also appreciate and enjoy a diverse range of musical genres, there's something about heavy metal that evokes a special kind of passion and
-        connection, akin to the effect of your favorite music on your own soul.
+        hard rock music. While I also appreciate and enjoy a diverse range of genres, there's something about heavy metal that evokes a special kind of passion and
+        connection, you know by how your favorite music affects your own soul.
       </p>
       <p>
-      In addition to my passion for software engineering, I have a keen interest in cutting-edge concepts like big data, gamification, and the intriguing world of 
-      logistics. On a lighter note, my interests span an eclectic range of subjects including cheering for American football teams like the Green Bay Packers and the Buffalo 
-      Bills and English football teams like Liverpool, unraveling the tapestry of history, diving into documentaries, comedy movies, 
+      In addition to my passion for software engineering, I have a keen interest in varying concepts like big data, gamification, and the intriguing world of 
+      logistics. On a lighter note, my interests also include cheering for American football teams like the Green Bay Packers and the Buffalo 
+      Bills and, recently, English football teams like Liverpool, unraveling the tapestry of history, diving into documentaries, comedy movies, 
       and contemplating the wonders of the space.
       </p>
 			<p>

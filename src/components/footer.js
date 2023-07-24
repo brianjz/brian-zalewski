@@ -20,11 +20,18 @@ const StyledName = styled.div`
     }
 `;
 
+const StyledGHImage = styled.img`
+    width: 150px;
+    height: 25px;
+    margin-top: 5px;
+`
+
 const Footer = () => {
     return (
         <StyledFooter>
             <StyledName>
                 <div>Built by Brian Zalewski. Learned From and Inspired By <a href="https://github.com/bchiang7/v4">v4</a> by Brittany Chiang.</div>
+                <StyledGHImage src="https://img.shields.io/github/last-commit/brianjz/brian-zalewski/master" alt="Last Commit" />
             </StyledName>
         </StyledFooter>
     )
