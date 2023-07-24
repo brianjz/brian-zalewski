@@ -129,6 +129,8 @@ const About = () => {
 			</p>
             <p>A few technologies that I've worked with recently are:</p>
             <StyledTechList>
+                <li>C#</li>
+                <li>APIs</li>
                 <li>Node.js</li>
                 <li>React</li>
                 <li>Gatsby</li>
