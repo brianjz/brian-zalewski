@@ -1,6 +1,5 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 
 const StyledMeSection = styled.section`
     padding: 250px 0;
@@ -73,9 +72,6 @@ const Me = () => {
                 </p>
                 <p>
                     I am always striving to learn and use the the latest technologies to build with.
-                </p>
-                <p>
-                    <strong>Currently on the lookout for a new career path. If you're interested, don't hesitate to <Link className="inline-link" to="#contact">get in touch.</Link></strong>
                 </p>
             </div>
         </StyledMeSection>

@@ -47,6 +47,9 @@ const StyledJob = styled.div`
     .jobRange {
         font-size: var(--fz-sm);
     }
+    .jobsubtitle {
+      color: var(--lightest-slate);
+    }
 `;
 
 const StyledMilestones = styled.ul`
@@ -71,6 +74,13 @@ const StyledMilestones = styled.ul`
   }
 `;
 
+const StyledJobNote = styled.div`
+  font-size: var(--fz-md);
+  a {
+    border-bottom: 1px dashed;
+  }
+`;
+
 const Jobs = ({ pageTitle, children }) => {
     const data = useStaticQuery(graphql`
         query {
@@ -85,6 +95,8 @@ const Jobs = ({ pageTitle, children }) => {
                 jobtype
                 endDate
                 company
+                note
+                noteurl
                 mongodb_id
             }
         }
@@ -102,7 +114,7 @@ const Jobs = ({ pageTitle, children }) => {
                 const edate = job.endDate ? new Intl.DateTimeFormat("en-US", {month: "long", year: "numeric"}).format(new Date(job.endDate)) : "Current"
                 return (
                     <StyledJob key={job.mongodb_id}>
-                        <h3>{job.title}{job.subtitle && `, ${job.subtitle}`}</h3>
+                        <h3>{job.title}{job.subtitle && <span class="jobsubtitle">, {job.subtitle}</span>}</h3>
                         <h5><a href={job.url} className="inline-link">{job.company}</a> ({job.location})</h5>
                         <p className="jobRange">{sdate} - {edate}</p>
                         <StyledMilestones>
@@ -110,6 +122,11 @@ const Jobs = ({ pageTitle, children }) => {
                               <li key={index}>{ms}</li>
                           )}
                         </StyledMilestones>
+                        {job.note && 
+                          <StyledJobNote>
+                            <em>Note</em>: {job.note} {job.noteurl && <a href={job.noteurl}>More Info &raquo;</a>}
+                          </StyledJobNote>
+                        }
                     </StyledJob>
                 )
             })}

@@ -55,6 +55,7 @@ const StyledPic = styled.div`
         filter: grayscale(0%) contrast(1);
       }
   }
+}
 `;
 
 const StyledTechList = styled.ul`
@@ -130,7 +131,7 @@ const About = () => {
       </p>
 			<p>
 				<strong>This site</strong> was built with React and Gatsby using much inspiration 
-                from <a href="https://brittanychiang.com/">Brittany Chiang</a> and <a href="https://github.com/bchiang7/v4/">her personal site on GitHub.</a>
+                from <a href="https://brittanychiang.com/">Brittany Chiang</a>.
 			</p>
             <p>A few technologies that I've worked with recently are:</p>
             <StyledTechList>
