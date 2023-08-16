@@ -117,11 +117,13 @@ const Jobs = ({ pageTitle, children }) => {
                         <h3>{job.title}{job.subtitle && <span class="jobsubtitle">, {job.subtitle}</span>}</h3>
                         <h5><a href={job.url} className="inline-link">{job.company}</a> ({job.location})</h5>
                         <p className="jobRange">{sdate} - {edate}</p>
-                        <StyledMilestones>
-                          {job.milestones.map((ms, index) =>
-                              <li key={index}>{ms}</li>
-                          )}
-                        </StyledMilestones>
+                        { job.milestones && 
+                          <StyledMilestones>
+                            {job.milestones.map((ms, index) =>
+                                <li key={index}>{ms}</li>
+                            )}
+                          </StyledMilestones>
+                        }
                         {job.note && 
                           <StyledJobNote>
                             <em>Note</em>: {job.note} {job.noteurl && <a href={job.noteurl}>More Info &raquo;</a>}
