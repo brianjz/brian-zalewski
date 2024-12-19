@@ -100,49 +100,35 @@ const About = () => {
 				Besides full-stack development, there are other things in my life that I really enjoy doing.
 			</p>
 			<p>
-				<strong>The year 2010 marked a pivotal turning point in my life</strong> when the arrival of my daughter brought boundless joy and immeasurable changes. 
-                In December 2012, my son joined our family. Parenthood has been an extraordinary mix of challenges and blessings, encompassing moments of both stress 
-                and pure amazement. This incredible journey has shaped me in ways I never imagined, and I wholeheartedly embrace every step of it.
+				<strong>The year 2010 marked a pivotal turning point in my life</strong> when the arrival of my daughter brought boundless joy and immeasurable changes. In December 2012, my son joined our family. Parenthood has been an extraordinary mix of challenges and blessings, encompassing moments of both stress and pure amazement. This incredible journey has shaped me in ways I never imagined, and I wholeheartedly embrace every step of it.
 			</p>
       <p>
         In 1999, a convergence of events — a thought-provoking news article and the loss of my beloved grandfather — propelled me into the vast
-        realm of <a href="https://www.zalewskifamily.net/">family history and genealogy</a>. <strong>It's an ongoing exploration</strong> that continues to teach me 
-        valuable lessons about my roots and personal identity. I love to share this knowledge with my children, and my fascination with 
-        genealogy fuels my ongoing quest for discovery and software engineering.
+        realm of <a href="https://www.zalewskifamily.net/">family history and genealogy</a>. <strong>It's an ongoing exploration</strong> that continues to teach me  valuable lessons about my roots and personal identity. I love to share this knowledge with my children, and my fascination with genealogy fuels my ongoing quest for discovery and software engineering.
       </p>
       <p>
-      <strong>Gaming has been an integral part of my life since my early years.</strong> I remember my first encounter with video games on my parents' Texas Instruments TI-99/4A, 
-      where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my early obsession truly took flight. 
-      While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to get lost in this beloved hobby. 
-      My interests and priorities have shifted over time, but gaming continues to provide me with a much-needed escape. Recently, my family and I decided to relaunch our 
-      family gaming site, <a href="https://www.stayathomegamers.com">Stay-At-Home Gamers</a>, where we document our adventures in video and board gaming
+        <strong>Gaming has been an integral part of my life since my early years.</strong> I remember my first encounter with video games on my parents' Texas Instruments TI-99/4A, where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my early obsession truly took flight. While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to get lost in this beloved hobby. My interests and priorities have shifted over time, but gaming continues to provide me with a much-needed escape. Recently, my family and I decided to relaunch our family gaming site, <a href="https://www.stayathomegamers.com">Stay-At-Home Gamers</a>, where we document our adventures in video and board gaming
       </p>
       <p>
-        The pivotal moment when I laid my hands on my brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette 
-        tape forever changed my musical journey (probably known to most now as that song from Stranger Things.) Since that day, I've remained a devoted fan of heavy metal and 
-        hard rock music. While I also appreciate and enjoy a diverse range of genres, there's something about heavy metal that evokes a special kind of passion and
-        connection, you know by how your favorite music affects your own soul.
+        The pivotal moment when I laid my hands on my brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette tape forever changed my musical journey (probably known to most now as that song from Stranger Things.) Since that day, I've remained a devoted fan of heavy metal and hard rock music. While I also appreciate and enjoy a diverse range of genres, there's something about heavy metal that evokes a special kind of passion and connection, you know by how your favorite music affects your own soul.
       </p>
       <p>
-      In addition to my passion for software engineering, I have a keen interest in varying concepts like big data, gamification, and the intriguing world of 
-      logistics. On a lighter note, my interests also include cheering for American football teams like the Green Bay Packers and the Buffalo 
-      Bills and, recently, English football teams like Liverpool, unraveling the tapestry of history, diving into documentaries, comedy movies, 
-      and contemplating the wonders of the space.
+        Beyond software engineering, I'm intrigued by fields such as big data, machine learning, gamification, and, weirdly, logistics. For fun, I enjoy rooting for NFL teams like the Green Bay Packers and Buffalo Bills, as well as Premier League sides like Liverpool. I also like to explore history, watch documentaries and comedies, and ponder the vastness of space.
       </p>
 			<p>
-				<strong>This site</strong> was built with React and Gatsby using much inspiration 
-                from <a href="https://brittanychiang.com/">Brittany Chiang</a>.
+				<strong>This site</strong> was built with React and Gatsby using much inspiration from Brittany Chiang's <a href="https://github.com/bchiang7/v4">v4 website</a>.
 			</p>
             <p>A few technologies that I've worked with recently are:</p>
             <StyledTechList>
                 <li>C#</li>
+                <li>Python</li>
                 <li>APIs</li>
                 <li>Node.js</li>
                 <li>React</li>
-                <li>Gatsby</li>
+                <li>Vite</li>
                 <li>MongoDB</li>
                 <li>Microsoft Azure</li>
-                <li>Python</li>
+                <li>.NET Core</li>
             </StyledTechList>
 		</StyledAboutSection>
     )
