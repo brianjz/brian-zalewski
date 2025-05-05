@@ -107,10 +107,10 @@ const About = () => {
         realm of <a href="https://www.zalewskifamily.net/">family history and genealogy</a>. <strong>It's an ongoing exploration</strong> that continues to teach me  valuable lessons about my roots and personal identity. I love to share this knowledge with my children, and my fascination with genealogy fuels my ongoing quest for discovery and software engineering.
       </p>
       <p>
-        <strong>Gaming has been an integral part of my life since my early years.</strong> I remember my first encounter with video games on my parents' Texas Instruments TI-99/4A, where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my early obsession truly took flight. While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to get lost in this beloved hobby. My interests and priorities have shifted over time, but gaming continues to provide me with a much-needed escape. Recently, my family and I decided to relaunch our family gaming site, <a href="https://www.stayathomegamers.com">Stay-At-Home Gamers</a>, where we document our adventures in video and board gaming
+        <strong>Gaming has been an integral part of my life since my early years.</strong> I remember my first encounter with video games on my parents' Texas Instruments TI-99/4A, where Space Invaders became my go-to entertainment. However, it was when my brother brought home the Nintendo Entertainment System that my early obsession truly took flight. While my gaming time has dwindled since becoming a parent and taking on adult responsibilities, I still manage to carve out moments to get lost in this beloved hobby. My interests and priorities have shifted over time, but gaming continues to provide me with a much-needed escape. Recently, my family and I became more interested in board gaming.
       </p>
       <p>
-        The pivotal moment when I laid my hands on my brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette tape forever changed my musical journey (probably known to most now as that song from Stranger Things.) Since that day, I've remained a devoted fan of heavy metal and hard rock music. While I also appreciate and enjoy a diverse range of genres, there's something about heavy metal that evokes a special kind of passion and connection, you know by how your favorite music affects your own soul.
+        The pivotal moment when I laid my hands on my brother's <a href="https://www.youtube.com/watch?v=6xjJ2XIbGRk" title="YouTube">Metallica "Master of Puppets"</a> cassette tape forever changed my musical journey (probably known to most now as that song from Stranger Things.) Since that day, I've remained a devoted fan of heavy metal and hard rock music. While I also appreciate and enjoy a diverse range of genres, there's something about heavy metal that evokes a special kind of passion and connection, you know by how your favorite music affects your own soul. I will admit I'm also a sucker for a good love song.
       </p>
       <p>
         Beyond software engineering, I'm intrigued by fields such as big data, machine learning, gamification, and, weirdly, logistics. For fun, I enjoy rooting for NFL teams like the Green Bay Packers and Buffalo Bills, as well as Premier League sides like Liverpool. I also like to explore history, watch documentaries and comedies, and ponder the vastness of space.
@@ -120,7 +120,7 @@ const About = () => {
 			</p>
             <p>A few technologies that I've worked with recently are:</p>
             <StyledTechList>
-                <li>C#</li>
+                <li>C#/VB.net</li>
                 <li>Python</li>
                 <li>APIs</li>
                 <li>Node.js</li>
