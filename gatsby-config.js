@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Brian Zalewski`,
     siteUrl: `https://brianzalewski.com`,
-    description: 'Brian Zalewski is a full-stack software engineer with 15+ years of experience with varying technologies',
+    description: 'Brian Zalewski is a full-stack software engineer with 20+ years of experience with varying technologies',
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
