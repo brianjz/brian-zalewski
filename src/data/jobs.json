@@ -1,0 +1,95 @@
+[
+    {
+        "title": "Software Developer",
+        "company": "Dynamic Ratings",
+        "startDate": "2026-08-24T09:00:00.000Z",
+        "location": "Sussex, WI",
+        "url": "https://www.dynamicratings.com",
+        "duties": [
+            "UI & Architecture: Architect, build, and maintain high-performance web applications that bridge hardware-integrated sensor telemetry with modern software platforms.",
+            "API & System Integration: Collaborate with backend and embedded systems engineers to design clean RESTful integrations, ensuring low-latency data rendering and reliable state management.",
+            "Code Health & Engineering Standards: Champion robust code reviews, modern front-end standards, and reusable component architectures that prioritize long-term maintainability, security, and usability.",
+            "Cross-Functional Delivery: Partner directly with product management and engineering leadership to break down technical requirements, establish testing patterns, and deliver stable features on schedule.",
+            "Continuous Modernization: Drive iterative performance tuning and usability enhancements across existing application suites, focusing on responsiveness, asset monitoring workflows, and data visualization."
+        ]
+    },
+    {
+        "title": "Software & Database Engineer",
+        "company": "Cain Industries, Inc",
+        "startDate": "2023-08-14T08:00:00.000Z",
+        "location": "Germantown, WI",
+        "url": "https://www.cainind.com",
+        "duties": [
+            "Sole developer that updates and supports a custom, in-house CRM that boosts sales and speeds up quote generation by automating proposal calculations and improving data access.",
+            "Build custom Windows and web software to automate data exchange across Production, Purchasing, and Sales teams.",
+            "Manage and optimize Microsoft SQL and MySQL databases for better performance and reliable business data."
+        ],
+        "endDate": "2026-08-20T17:00:00.960Z"
+    },
+    {
+        "title": "Software Engineer III",
+        "subtitle": "Financial Applications",
+        "company": "Gannett, USA TODAY NETWORK",
+        "startDate": "2016-04-01T05:00:00.000Z",
+        "location": "McLean, VA",
+        "jobtype": "Remote",
+        "url": "https://www.gannett.com",
+        "duties": [
+            "Full-stack development focused mainly on the back-end systems including, but not limited to, working with C#, Microsoft SQL, MySQL, PHP, jQuery, and Bootstrap.",
+            " I had the ability to create custom full-stack software solutions that were utilized throughout the organization across various departments. These comprehensive solutions enabled us to streamline complex processes, such as time card data translation, credit card approvals, employee data imports, and user access reviews. My role allowed me to contribute to the organization's success by developing innovative software solutions that improved our overall efficiency and productivity.",
+            "As the sole developer, I spearheaded a critical security project to address an outdated and insecure method of receiving tax forms via email. I replaced this system with a fully secure web-based solution, enhancing both the public-facing site and the internal administration application. By implementing robust security measures, such as encryption and authentication protocols, we were able to significantly reduce the risk of data breaches and protect sensitive information.",
+            "Worked with a small team to design and implement an in-house User Access Review solution that significantly streamlined our workflow by replacing a complex and time-consuming CSV and Excel-based process. This new system dramatically reduced the amount of time needed to perform user reviews, slashing the review process from weeks to mere days. The time savings achieved with this solution allowed our team to focus on other critical tasks, resulting in improved efficiency and productivity."
+        ],
+        "endDate": "2023-06-14T00:00:00.000Z"
+    },
+    {
+        "title": "Application Developer",
+        "company": "Journal Media Group",
+        "startDate": "2015-01-01T06:00:00.000Z",
+        "endDate": "2016-04-01T05:00:00.000Z",
+        "location": "Milwaukee, WI",
+        "jobtype": "On-Site",
+        "url": "https://en.wikipedia.org/wiki/Journal_Media_Group",
+        "duties": [
+            "Development on back-end systems including, but not limited to, working with Microsoft SQL, MySQL, C#, and PHP.",
+            "Thrived in a dynamic role where I worked as a \"jack-of-all-trades,\" jumping from system to system as needed to ensure smooth operation.",
+            "Took on the primary development responsibility for a custom Intranet suite created after our company's recent merger/split.",
+            "Leveraged my expertise in PHP/MySQL to design and build a suite that catered to the daily tasks of users across various departments.",
+            "Contributed to the success of the system, which encompassed features such as employee directory, change management, transaction management, security requests and provisioning, document library, company announcements, and much more."
+        ],
+        "note": "Gannett purchased Journal Media Group in 2016.",
+        "noteurl": "https://www.usatoday.com/story/news/pr/2016/04/11/gannett-completes-acquisition-journal-media-group/82887440/"
+    },
+    {
+        "title": "Web Software Engineer",
+        "company": "Journal Communications, Inc",
+        "startDate": "2002-09-01T05:00:00.000Z",
+        "endDate": "2015-01-01T06:00:00.000Z",
+        "location": "Milwaukee, WI",
+        "jobtype": "On-Site",
+        "url": "https://en.wikipedia.org/wiki/Journal_Media_Group",
+        "duties": [
+            "Web development for 50+ newspaper, radio, television, and niche websites. Included migrating and converting dozens of them to our primary CMS to fit with our standardized core.",
+            "Provided top-notch support for a range of technical issues,\nincluding FTP, security systems, and legacy software,\ndelivering timely and effective solutions to keep operations\nrunning smoothly.",
+            "Led the design and development of a company-wide Intranet\nusing ASP, .NET, PHP, MySQL, Javascript, and other cutting-\nedge technologies, implementing a CMS to streamline\ncontent management.",
+            "Served as the Technical Contact for a large-scale revenue\nproject involving Internet Streaming and Ad-Placement\ntechnologies, working closely with stakeholders to ensure\nproject success.",
+            "Installed and administered 13 video streaming and recording\nservers, enhancing online video capabilities and contributing\nto increased user engagement.",
+            "Microsoft SharePoint 2007 implementation and development"
+        ],
+        "subtitle": "Broadcast Properties",
+        "note": "Journal Communications and Scripps divvied up assets and JCI became Journal Media Group in 2015.",
+        "noteurl": "https://www.wsj.com/articles/scripps-journal-communications-to-divvy-up-print-broadcast-assets-1406770685"
+    },
+    {
+        "title": "Help Desk Technician",
+        "company": "Journal Broadcast Group",
+        "startDate": "2000-05-22T05:00:00.000Z",
+        "endDate": "2002-09-01T05:00:00.000Z",
+        "location": "Milwaukee, WI",
+        "jobtype": "On-Site",
+        "url": "https://en.wikipedia.org/wiki/Journal_Media_Group",
+        "duties": [
+            "Supporting business computers including Windows 95, 98, NT, 2000 and all software that was used for business."
+        ]
+    }
+]

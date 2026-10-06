@@ -1,0 +1,77 @@
+[
+    {
+  "title": "Zalewski Family History",
+  "url": "https://www.zalewskifamily.net",
+  "description": "My main genealogy blog where I write about not only my research but all things family history related.",
+  "technologies": [
+    {
+      "name": "Wordpress",
+      "url": "https://wordpress.org"
+    },
+    {
+      "name": "MySQL",
+      "url": "https://www.mysql.com"
+    },
+    {
+      "name": "jQuery",
+      "url": "https://jquery.com"
+    },
+    {
+      "name": "TNG",
+      "fullname": "The Next Generation of Genealogy Sitebuilding",
+      "url": "https://tngsitebuilding.com/"
+    },
+    {
+      "name": "MediaWiki",
+      "url": "https://www.mediawiki.org/wiki/MediaWiki"
+    }
+  ],
+  "featured": true,
+  "order": 2
+},
+{
+  "title": "The Zalewski Project",
+  "url": "https://thezalewskiproject.azurewebsites.net/",
+  "description": "My goal on this genealogy-related site is to aggregate data and records related to the Zalewski surname and present them in an easy-to-use fashion. Includes local data and data pulled from APIs.",
+  "technologies": [
+    {
+      "name": "Node.js",
+      "url": "https://nodejs.org/en/"
+    },
+    {
+      "name": "React",
+      "url": "https://reactjs.org/"
+    },
+    {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "name": "Express",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "name": "WikiTree API",
+      "url": "https://github.com/wikitree/wikitree-api"
+    }
+  ],
+  "featured": true,
+  "order": 3
+},
+{
+  "title": "Procedural Family Tree",
+  "url": "https://github.com/brianjz/ProceduralFamilyTree",
+  "description": "A fun side-project to have a system that creates procedurally-generated family trees.",
+  "technologies": [
+    {
+      "name": "C#"
+    },
+    {
+      "name": ".NET Minimal APIs",
+      "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis/overview?view=aspnetcore-7.0"
+    }
+  ],
+  "featured": true,
+  "order": 1
+}
+]
